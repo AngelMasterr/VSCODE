@@ -1,0 +1,15 @@
+<html>
+<body>
+
+<input type="text" id="name" placeholder="Ingresa tu nombre">
+<button onclick="displayName()">Presiona aquí</button>
+
+<script>
+function displayName() {
+    var name = document.getElementById("name").value;
+    alert("Soy " + name + " el mejor del universo?");
+}
+</script>
+
+</body>
+</html>
